@@ -7,7 +7,7 @@ use PhpOffice\PhpSpreadsheet\IOFactory;
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "gpro_marj570127kp5_v21_20240318";
+$dbname = "AQUI PONES EL NOMBRE DE TU BASE DE DATOS YA CARGADA ";
 
 // Crear la conexión a la base de datos
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -18,7 +18,7 @@ if ($conn->connect_error) {
 }
 
 // Ruta del archivo Excel
-$rutaArchivoExcel = "Prueba2.xlsx";
+$rutaArchivoExcel = "AQUI PONES EL NOMBRE DE TU EXCEL YA CARGADO.xlsx";
 
 // Cargar el archivo Excel
 $documentoExcel = IOFactory::load($rutaArchivoExcel);
